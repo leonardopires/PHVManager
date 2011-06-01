@@ -1,0 +1,153 @@
+body
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+
+table 
+{
+	font-size: 8pt;
+	border: 0px ;
+}
+
+td
+{
+	border: none;
+}
+.tblCorpo .tde
+{
+	border-right: #99bb28 1px dashed;
+	border-bottom: #99bb28 1px dashed;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.tblCorpo .td
+{
+	border-bottom: #99bb28 1px dashed;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+.tblCorpo 
+{
+	margin: 5px;
+}
+.cllBanner 
+{
+	padding: 5px;
+}
+.cllBannerTop
+{
+	padding: 5px;
+		border-bottom: #99bb28 1px dashed;
+}
+.dica-saude 
+{
+	position: relative;
+	top: -16px;	
+	padding-left: 10px;
+}
+.dica-viagem 
+{
+	position: relative;
+	top: -20px;	
+	padding-left: 10px;
+}
+.aniver
+{
+	position: relative;
+	top: -16px;	
+	padding-left: 10px;
+}
+.busca
+{
+	position: relative;
+	top: -16px;	
+	padding-left: 15px;
+}
+.enquete
+{
+	position: relative;
+	top: -16px;	
+	padding-left: 15px;
+}
+.lblIntro
+{
+	padding: 7px;
+	/*text-justify: newspaper;*/
+	text-align: left;
+}
+.tblCorpo a
+{
+	text-decoration: none;
+	color: #99bb28;
+	font-weight:bold;
+}
+.tblCorpo a:hover
+{
+	text-decoration: underline;
+	color: #aec900;
+	
+}
+.pnlHeadline 
+{
+}
+.lstNoticiasAlt a
+{
+	color: White;
+}
+.lstNoticiasAlt a:hover
+{
+	color: White;
+}
+.lnkItem
+{
+	color: White;
+	text-decoration:none;
+	padding-left: 10px;
+	padding-right: 10px;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 8pt;
+	height: 100%;
+	font-weight: bold;
+}
+.lnkItem:hover
+{
+	color: White;
+	text-decoration:none;
+	font-weight: bold;
+	background: #aec900;
+}
+.titDica 
+{
+	height: 50px;	
+}
+.grfLegenda
+{
+	padding: 10px;
+	background-color: white;
+	
+}
+h1 
+{
+color: #227725;	
+}
+.lblTexto
+{
+	line-height: 18px;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+		
+}
+.lblTexto h1, h2, h3, h4, h5 
+{
+	font-size: 12px;
+}

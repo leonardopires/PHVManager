@@ -1,0 +1,493 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA91F889-5D96-4E03-AD76-ED995C0F0924}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>afabre</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>afabre</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>afabre.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>afabre.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="cleanText">
+      <Name>cleanText</Name>
+      <HintPath>..\aquaflot\bin\cleanText.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="System.Web.UI.WebControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="busca\busca.aspx.designer.vb">
+      <DependentUpon>busca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="busca\busca.aspx.vb">
+      <DependentUpon>busca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="busca\ifrBusca.aspx.designer.vb">
+      <DependentUpon>ifrBusca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="busca\ifrBusca.aspx.vb">
+      <DependentUpon>ifrBusca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contato\contato.aspx.designer.vb">
+      <DependentUpon>contato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contato\contato.aspx.vb">
+      <DependentUpon>contato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default\default.aspx.designer.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="default\default.aspx.vb">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enquete\enquete.aspx.designer.vb">
+      <DependentUpon>enquete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enquete\enquete.aspx.vb">
+      <DependentUpon>enquete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="enquete\ifrEnquete.aspx.designer.vb">
+      <DependentUpon>ifrEnquete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="enquete\ifrEnquete.aspx.vb">
+      <DependentUpon>ifrEnquete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="general.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="institucional\institucional.aspx.designer.vb">
+      <DependentUpon>institucional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="institucional\institucional.aspx.vb">
+      <DependentUpon>institucional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="noticias\noticias.aspx.designer.vb">
+      <DependentUpon>noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="noticias\noticias.aspx.vb">
+      <DependentUpon>noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="receitas\receitas.aspx.designer.vb">
+      <DependentUpon>receitas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="receitas\receitas.aspx.vb">
+      <DependentUpon>receitas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\bottom.ascx.designer.vb">
+      <DependentUpon>bottom.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="res\bottom.ascx.vb">
+      <DependentUpon>bottom.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\erro.aspx.designer.vb">
+      <DependentUpon>erro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\erro.aspx.vb">
+      <DependentUpon>erro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\getArquivo.aspx.designer.vb">
+      <DependentUpon>getArquivo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\getArquivo.aspx.vb">
+      <DependentUpon>getArquivo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\getImage.aspx.designer.vb">
+      <DependentUpon>getImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\getImage.aspx.vb">
+      <DependentUpon>getImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\getTexto.aspx.designer.vb">
+      <DependentUpon>getTexto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\getTexto.aspx.vb">
+      <DependentUpon>getTexto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\imagePopup.aspx.designer.vb">
+      <DependentUpon>imagePopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\imagePopup.aspx.vb">
+      <DependentUpon>imagePopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\layout.aspx.designer.vb">
+      <DependentUpon>layout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\layout.aspx.vb">
+      <DependentUpon>layout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\login.ascx.designer.vb">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="res\login.ascx.vb">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\multi.aspx.designer.vb">
+      <DependentUpon>multi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\multi.aspx.vb">
+      <DependentUpon>multi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\redirect.aspx.designer.vb">
+      <DependentUpon>redirect.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\redirect.aspx.vb">
+      <DependentUpon>redirect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="res\WebForm1.aspx.designer.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="res\WebForm1.aspx.vb">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="saude\saude.aspx.designer.vb">
+      <DependentUpon>saude.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="saude\saude.aspx.vb">
+      <DependentUpon>saude.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viagens\viagens.aspx.designer.vb">
+      <DependentUpon>viagens.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viagens\viagens.aspx.vb">
+      <DependentUpon>viagens.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xml\menu.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>menu.xsd</DependentUpon>
+    </Compile>
+    <Content Include="busca\busca.aspx" />
+    <Content Include="busca\ifrBusca.aspx" />
+    <Content Include="contato\contato.aspx" />
+    <Content Include="css\afabre.css" />
+    <Content Include="default.aspx" />
+    <Content Include="default\default.aspx" />
+    <Content Include="enquete\enquete.aspx" />
+    <Content Include="enquete\ifrEnquete.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\ANIVER.gif" />
+    <Content Include="images\banners\01.gif" />
+    <Content Include="images\busca.gif" />
+    <Content Include="images\cabecalho_01.gif" />
+    <Content Include="images\cabecalho_02.jpg" />
+    <Content Include="images\cabecalho_03.jpg" />
+    <Content Include="images\cabecalho_04.jpg" />
+    <Content Include="images\cabecalho_05.jpg" />
+    <Content Include="images\cabecalho_06.gif" />
+    <Content Include="images\cabecalho_07.gif" />
+    <Content Include="images\cabecalho_08.gif" />
+    <Content Include="images\cabecalho_09.gif" />
+    <Content Include="images\cabecalho_10.jpg" />
+    <Content Include="images\cabecalho_11.jpg" />
+    <Content Include="images\cabecalho_12.gif" />
+    <Content Include="images\cabecalho_13.gif" />
+    <Content Include="images\cabecalho_14.jpg" />
+    <Content Include="images\cabecalho_15.jpg" />
+    <Content Include="images\dica-saude.gif" />
+    <Content Include="images\dica-viagem.gif" />
+    <Content Include="images\dir-btm.gif" />
+    <Content Include="images\dir-mid.gif" />
+    <Content Include="images\dir-top.gif" />
+    <Content Include="images\enquete.gif" />
+    <Content Include="images\esq-btm.gif" />
+    <Content Include="images\esq-mid.gif" />
+    <Content Include="images\esq-top.gif" />
+    <Content Include="images\foto-dummy-princ.gif" />
+    <Content Include="images\foto-dummy-princ.jpg" />
+    <Content Include="images\logo-phv.gif" />
+    <Content Include="images\phv.gif" />
+    <Content Include="images\seta-dir-bc.gif" />
+    <Content Include="images\seta-esq-cl.gif" />
+    <Content Include="images\seta-esq-es.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="institucional\institucional.aspx" />
+    <Content Include="noticias\noticias.aspx" />
+    <Content Include="receitas\receitas.aspx" />
+    <Content Include="res\bottom.ascx" />
+    <Content Include="res\erro.aspx" />
+    <Content Include="res\getArquivo.aspx" />
+    <Content Include="res\getImage.aspx" />
+    <Content Include="res\getTexto.aspx" />
+    <Content Include="res\imagePopup.aspx" />
+    <Content Include="res\layout.aspx" />
+    <Content Include="res\login.ascx" />
+    <Content Include="res\login.aspx" />
+    <Content Include="res\multi.aspx" />
+    <Content Include="res\redirect.aspx" />
+    <Content Include="res\WebForm1.aspx" />
+    <Content Include="saude\saude.aspx" />
+    <Content Include="Styles.css" />
+    <Content Include="viagens\viagens.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="xml\menu.xml" />
+    <Content Include="xml\menu.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>menu.Designer.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="busca\busca.aspx.resx">
+      <DependentUpon>busca.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="busca\ifrBusca.aspx.resx">
+      <DependentUpon>ifrBusca.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="contato\contato.aspx.resx">
+      <DependentUpon>contato.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="default\default.aspx.resx">
+      <DependentUpon>default.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enquete\enquete.aspx.resx">
+      <DependentUpon>enquete.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="enquete\ifrEnquete.aspx.resx">
+      <DependentUpon>ifrEnquete.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Global.asax.resx">
+      <DependentUpon>Global.asax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="institucional\institucional.aspx.resx">
+      <DependentUpon>institucional.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="noticias\noticias.aspx.resx">
+      <DependentUpon>noticias.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="receitas\receitas.aspx.resx">
+      <DependentUpon>receitas.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\bottom.ascx.resx">
+      <DependentUpon>bottom.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\erro.aspx.resx">
+      <DependentUpon>erro.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\getArquivo.aspx.resx">
+      <DependentUpon>getArquivo.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\getImage.aspx.resx">
+      <DependentUpon>getImage.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\getTexto.aspx.resx">
+      <DependentUpon>getTexto.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\imagePopup.aspx.resx">
+      <DependentUpon>imagePopup.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\layout.aspx.resx">
+      <DependentUpon>layout.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\login.ascx.resx">
+      <DependentUpon>login.ascx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\login.aspx.resx">
+      <DependentUpon>login.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\multi.aspx.resx">
+      <DependentUpon>multi.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\redirect.aspx.resx">
+      <DependentUpon>redirect.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="res\WebForm1.aspx.resx">
+      <DependentUpon>WebForm1.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="saude\saude.aspx.resx">
+      <DependentUpon>saude.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viagens\viagens.aspx.resx">
+      <DependentUpon>viagens.aspx.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="xml\menu.xsc">
+      <DependentUpon>menu.xsd</DependentUpon>
+    </None>
+    <None Include="xml\menu.xss">
+      <DependentUpon>menu.xsd</DependentUpon>
+    </None>
+    <None Include="xml\menu.xsx">
+      <DependentUpon>menu.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Lib\AfabreLib\AfabreLib.csproj">
+      <Project>{6D6968A7-A0E4-4E75-B76B-2837E4DD8286}</Project>
+      <Name>AfabreLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3578</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/afabre</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

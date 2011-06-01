@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="http://tempuri.org/menu.xsd">
+	<menuitem>
+		<nomept>Home
+</nomept>
+		<nomeurl>default</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Institucional</nomept>
+		<nomeurl>institucional</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Notícias</nomept>
+		<nomeurl>noticias</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Saúde</nomept>
+		<nomeurl>saude</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Viagens</nomept>
+		<nomeurl>viagens</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Receitas</nomept>
+		<nomeurl>receitas</nomeurl>
+	</menuitem>
+	<menuitem>
+		<nomept>Contato</nomept>
+		<nomeurl>contato</nomeurl>
+	</menuitem>
+</root>

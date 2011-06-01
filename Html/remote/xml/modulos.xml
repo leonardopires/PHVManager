@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="http://localhost/afabre/remote/xml/modulos.xsd">
+	<modulo>
+		<nome>Gerenciador de Usuários</nome>
+		<url>usuarios</url>
+		<ativado>true</ativado>
+	</modulo>
+	<modulo>
+		<nome>Textos Institucionais</nome>
+		<url>institucional</url>
+		<ativado>true</ativado>
+	</modulo>
+	<modulo>
+		<nome>Gerenciador de Notícias</nome>
+		<url>noticias</url>
+		<ativado>true</ativado>
+	</modulo>
+	<modulo>
+		<nome>Configurações Internacionais</nome>
+		<url>internacional</url>
+		<ativado>false</ativado>
+	</modulo>
+	<modulo>
+		<nome>Gerenciador de Viagens</nome>
+		<url>viagens</url>
+		<ativado>true</ativado>
+	</modulo>
+	<modulo>
+		<nome>Gerenciador de Dicas de Saúde</nome>
+		<url>saude</url>
+		<ativado>true</ativado>
+	</modulo>
+	<modulo>
+		<nome>Gerenciador de Enquetes</nome>
+		<url>enquetes</url>
+		<ativado>true</ativado>
+	</modulo>
+		<modulo>
+		<nome>Gerenciador de Receitas</nome>
+		<url>receitas</url>
+		<ativado>true</ativado>
+	</modulo>
+</root>

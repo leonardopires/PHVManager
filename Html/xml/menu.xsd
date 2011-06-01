@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xs:schema id="root" targetNamespace="http://tempuri.org/menu.xsd" xmlns:mstns="http://tempuri.org/menu.xsd"
+	xmlns="http://tempuri.org/menu.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="root" msdata:IsDataSet="true" msdata:Locale="pt-BR" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="menuitem">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="nomept" type="xs:string" minOccurs="0" />
+							<xs:element name="nomeurl" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

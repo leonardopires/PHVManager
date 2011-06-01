@@ -1,0 +1,227 @@
+/* Anterior */
+.tblBottom 
+{
+	font-size: 7pt;
+	color: #888888;
+	font-weight:bold;
+}
+.txtBox
+{
+	font-size:8pt;
+	color: #666666;
+	background-color: #AAAAAA;
+	font-weight:bold;
+	width: 120px;
+}
+.cmdIr 
+{
+	width:17px;
+	height: 17px;
+	background-color: #dfdbdc;
+}
+.form 
+{
+	border-left-style: solid;
+	border-left-width: 2px;
+	border-left-color: #BBBBBB;
+	padding-left: 10px;
+	position: relative;
+	top: 10px;
+	height: 80px;
+}
+.form td
+{
+	font-size: 7pt;
+	color: #888888;
+	font-weight:bold;
+}
+.form table
+{
+	position:relative;
+	top: 5px;	
+}
+.pnlNoticias
+{
+	vertical-align: top;
+	position: absolute;
+	top: 160px;
+	border: 1px;
+	overflow: auto;
+	font-size: 8pt;
+}
+/*.pnlNoticias a 
+{
+	color: DodgerBlue;
+	text-decoration: none;	
+}
+.pnlNoticias a:hover
+{
+	color: royalblue;
+	text-decoration: underline;	
+}*/
+.menu-az a 
+{
+	color: white;
+	text-decoration: none;	
+	height: 27px;
+	position: relative;
+	top: -6px;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+.menu-az a:hover
+{
+	color: white;
+	background-color: dodgerblue;
+	text-decoration: none;
+}
+.pnlConteudo 
+{
+
+	overflow: auto;	
+	
+}
+.cllContent
+{
+	padding-bottom: 10px;
+}
+.lblData 
+{
+	text-align:right;
+	color: #999999;	
+	font-weight: bold;
+		
+}
+.lblChamada 
+{
+	color: dodgerblue;
+	font-size: 18pt;	
+	font-weight: bold;
+}
+.lblTexto 
+{
+	text-align:justify;	
+}
+.listBox
+{
+	width:136px;
+}
+.pnlErro 
+{
+position:absolute;
+top: 0px;
+left: 0px;
+vertical-align:middle;	
+}
+.lblMsg
+{
+	text-align: left;
+	padding: 0px;
+}
+.lstNoticias td
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+.lstNoticias
+{
+width: 100%;
+
+}
+.calNews
+{
+	text-transform:uppercase;
+
+}
+.calNews a 
+{
+		text-decoration: none;
+}
+.pnlMsgBox
+{
+	border: outset 2px;
+	filter: Shadow(Color=#550000, Direction=315);
+}
+.titleBar 
+{
+padding-top: 3px;	
+padding-bottom: 3px;
+text-align: left;
+padding-left: 20px;
+
+}
+.titleDica
+{
+padding-top: 3px;	
+padding-bottom: 3px;
+text-align: left;
+position:relative;
+top: -5px;
+
+}
+.pnlDicaTxt
+{
+	position: relative;
+	top: 10px;
+}
+
+.btn     { width: 22px; height: 22px; border: 1px solid gainsboro; margin: 0; padding: 0; }
+.btnOver { width: 22px; height: 22px; border: 1px outset; }
+.btnDown { width: 22px; height: 22px; border: 1px inset; background-color: whitesmoke; }
+.btnNA   { width: 22px; height: 22px; border: 1px solid gainsboro; filter: alpha(opacity=25); }
+.cMenu     { background-color: gainsboro; color: black; cursor: Default; font-family: MS Sans Serif; font-size: 8pt; padding: 2 12 2 16; }
+.cMenuOver { background-color: whitesmoke; color: black; cursor: Default; font-family: MS Sans Serif; font-size: 8pt; padding: 2 12 2 16; }
+.cMenuDivOuter { background-color: gainsboro; height: 9 }
+.cMenuDivInner { margin: 0 4 0 4; border-width: 1; border-style: solid; border-color: gray whitesmoke whitesmoke gray; }
+.tdRight
+{
+	border-style:none;
+	border-left: dashed 1px dodgerblue;
+	}
+
+
+/* NOVAS */
+
+
+body
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+}
+.lblResponse 
+{
+	text-align: center;
+	font-size: 8pt;
+}
+.lblCopy
+{
+	text-align: center;
+	vertical-align:middle;
+	padding-top: 5px;
+	font-size: 8pt;
+}
+table
+{
+	font-size: 8pt;
+}
+.lnkLabel
+{
+	width:150px;
+	text-decoration: none;
+	color: Black;
+	text-align: left;
+	
+}
+.lnkLabel:hover
+{
+	color: Green;
+}
+.pnlToolTip 
+{
+padding: 10px;	
+}
+
+table{ border: 0px; }
